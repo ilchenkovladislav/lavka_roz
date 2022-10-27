@@ -1,0 +1,14 @@
+.mini-social {
+    list-style: none;
+    font-size: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.mini-social__link {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #222;
+}

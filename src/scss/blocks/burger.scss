@@ -1,0 +1,27 @@
+.burger {
+    background-color: #000;
+    font-size: 0;
+    width: 18px;
+    height: 2px;
+    border: none;
+    position: relative;
+    border-radius: 10px;
+    
+    &::before, &::after {
+        content: "";
+        display: block;
+        width: 18px;
+        height: 2px;
+        background-color: #000;
+        position: absolute;
+        border-radius: 10px;
+    }
+
+    &::before {
+        top: -6px;
+    }
+
+    &::after {
+        bottom: -6px;
+    }
+}
